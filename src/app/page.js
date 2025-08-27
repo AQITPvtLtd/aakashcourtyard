@@ -9,12 +9,12 @@ import Contact from "@/components/homepage/Contact";
 export default function HomePage() {
   return (
     <main className="mt-[80px] bg-black"> {/* Navbar ke neeche space ek hi baar */}
-      <Banner />
-      <About />
+      {/* <Banner /> */}
+      {/* <About /> */}
       <div className="lg:block hidden">
         <Upcoming />
       </div>
-      {/* <Services /> */}
+      <Services />
       <Faq />
       <Contact />
       <Location />

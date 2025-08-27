@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="lg:grid lg:grid-cols-12 lg:gap-10 items-center">
                 {/* Moviecard */}
                 <div className="col-span-6 w-full lg:px-0"> {/* ✅ w-full instead of justify-center */}
-                    <Moviecard />
+                    {/* <Moviecard /> */}
                 </div>
 
                 {/* Form */}

@@ -15,7 +15,7 @@ export default function HomePage() {
         <Upcoming />
       </div>
       <Services />
-      {/* <Faq /> */}
+      <Faq />
       <Contact />
       <Location />
     </main>

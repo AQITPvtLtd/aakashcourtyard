@@ -14,7 +14,6 @@ export default function HomePage() {
       <div className="lg:block hidden">
         <Upcoming />
       </div>
-      {/* <Upcoming className="lg:block hidden" /> */}
       <Services />
       <Faq />
       <Contact />

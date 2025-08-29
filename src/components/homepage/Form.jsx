@@ -137,7 +137,7 @@ const Form = () => {
                     {
                         loading ? (<div className="flex justify-center items-center w-full h-full fixed top-0 left-0 z-50 rounded-md" style={{ backgroundColor: "rgba(75, 0, 130, 0.5)" }}>
                             <ClipLoader width="60" height="60" color="#eb5f30" className="animate-spin" />
-                        </div>) : (<button className="bg-[#084cfc] text-white font-semibold px-6 py-3 cursor-pointer rounded-xl hover:bg-[#0639c9] transition duration-300">
+                        </div>) : (<button className="text-white cursor-pointer font-semibold text-sm sm:text-base md:text-lg px-3 sm:px-5 py-2 rounded-xl border border-yellow-400 transition duration-300 hover:scale-105 hover:bg-yellow-400 hover:text-black">
                             Submit
                         </button>)
                     }

@@ -10,7 +10,7 @@ const Banner = () => {
         <div className="banner-carousel  inset-0">
             <Carousel
                 autoPlay
-               infiniteLoop={false}
+                infiniteLoop
                 showThumbs={false}
                 showStatus={false}
                 interval={3000}

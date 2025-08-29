@@ -12,7 +12,7 @@ const About = () => {
             <div className="banner-carousel relative rounded-2xl overflow-hidden shadow-lg">
                 <Carousel
                     autoPlay
-                    infiniteLoop={false}
+                    infiniteLoop
                     showThumbs={false}
                     showStatus={false}
                     interval={3000}

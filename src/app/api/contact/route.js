@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import { v4 as uuid } from "uuid";
 import pool from "@/helper/db";
 import nodemailer from "nodemailer";
 
@@ -13,12 +12,12 @@ export async function POST(request) {
         const location = formData.get("location");
         const message = formData.get("message");
 
-        const unique_id = uuid();
+        // const unique_id = uuid();
 
         // ✅ Insert into Database
         await pool.execute(
-            "INSERT INTO contact (date, id, name, phone, email, location, message) VALUES (NOW(), ?, ?, ?, ?, ?, ?)",
-            [unique_id, fullname, phone, email, location, message]
+            "INSERT INTO contact (date,  name, phone, email, location, message) VALUES (NOW(), ?, ?, ?, ?, ?)",
+            [ fullname, phone, email, location, message]
         )
 
         // ✅ Nodemailer Transporter

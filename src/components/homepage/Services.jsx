@@ -7,31 +7,31 @@ const services = [
     {
         id: 1,
         title: "Movie Screenings",
-        desc: "Latest Bollywood, Hollywood & regional films 3D, IMAX & standard showings Daily shows from morning to late night",
+        desc: "Latest Bollywood, Hollywood & regional films 3D, IMAX & standard showings Daily shows from morning to late night.",
         icon: <Film size={40} />,
     },
     {
         id: 2,
         title: "Online Ticket Booking",
-        desc: "Quick and secure booking Real-time seat selection Instant confirmation via SMS & email",
+        desc: "Book your tickets quickly and securely with real-time seat selection, receiving instant confirmation notifications via SMS and email every time.",
         icon: <Ticket size={40} />,
     },
     {
         id: 3,
         title: "Membership & Loyalty Programs",
-        desc: "Earn points with every ticket purchase Exclusive discounts & perks Early access to new releases",
+        desc: "Earn reward points on every ticket, get exclusive discounts, special perks, and enjoy early access to all new movie releases.",
         icon: <Star size={40} />,
     },
     {
         id: 4,
         title: "Concessions & Snacks",
-        desc: "Fresh popcorn, nachos, drinks, and combos Hygienic preparation and packaging Family and group deals",
+        desc: "Relish fresh popcorn, nachos, drinks and exciting combos, all prepared hygienically with safe packaging, plus amazing family and group deals.",
         icon: <Popcorn size={40} />,
     },
     {
         id: 5,
         title: "Private Screenings & Events",
-        desc: "Birthdays, corporate events, or private movie nights Customizable seating and catering packages Dedicated staff for smooth event management",
+        desc: "Birthdays, corporate events, or private movie nights Customizable seating and catering packages Dedicated staff for smooth event management.",
         icon: <Users size={40} />,
     },
 ];

@@ -7,19 +7,20 @@ import Image from "next/image";
 
 const About = () => {
     return (
-        <div className="lg:grid lg:grid-cols-2 w-full h-full px-6 md:px-12 lg:px-20 py-10 gap-10 items-center">
-            {/* Left - Carousel */}
-            <div className="banner-carousel relative rounded-2xl overflow-hidden shadow-lg">
+        <div className="grid grid-cols-1 lg:grid-cols-2 w-full h-full px-6 md:px-12 lg:px-20 py-10 gap-10 items-center">
+
+            {/* Left - Carousel (small pe niche, lg pe left) */}
+            <div className="banner-carousel relative rounded-2xl overflow-hidden shadow-lg order-2 lg:order-1">
                 <Carousel
                     autoPlay
                     infiniteLoop
                     showThumbs={false}
                     showStatus={false}
                     interval={3000}
-                    swipeable={false}       // ✅ Disable swipe to fix page scroll issue
-                    emulateTouch={false}    // ✅ Disable touch-drag, only buttons/icons will work
-                    stopOnHover={false}     // ✅ Keeps autoplay running even if hovered
-                    useKeyboardArrows       // ✅ Allow left/right arrows for navigation
+                    swipeable={false}
+                    emulateTouch={false}
+                    stopOnHover={false}
+                    useKeyboardArrows
                 >
                     {["/inner/miraj.jpg", "/inner/popcorner.jpg", "/inner/food.jpg", "/inner/seats.jpeg"].map(
                         (src, index) => (
@@ -40,8 +41,8 @@ const About = () => {
                 </Carousel>
             </div>
 
-            {/* Right - Text */}
-            <div className="p-6 flex flex-col justify-center text-center lg:text-left">
+            {/* Right - Text (small pe upar, lg pe right) */}
+            <div className="p-6 flex flex-col justify-center text-center lg:text-left order-1 lg:order-2">
                 <h2
                     className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4"
                     style={{ fontFamily: "Roboto Slab, serif" }}
@@ -49,8 +50,7 @@ const About = () => {
                     About <span className="text-yellow-400">Us</span>
                 </h2>
                 <p className="text-white text-base md:text-lg leading-relaxed lg:text-justify">
-                    Aakash Cinema – Where Movies Come Alive
-                    At Aakash Cinema, we aim to provide more than just a movie experience—we create memories. Established in [Year], our mission is to offer premium cinema experiences in a comfortable and friendly environment.
+                    At Aakash Cinema, we believe movies are more than just entertainment, they’re experiences that stay with you. Since our beginning in [Year], our goal has been to bring people together and create lasting memories through cinema. With a warm, welcoming atmosphere and premium viewing comfort, every visit here feels special.
                 </p>
             </div>
         </div>
@@ -58,3 +58,4 @@ const About = () => {
 };
 
 export default About;
+

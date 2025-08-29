@@ -3,7 +3,7 @@ import React from 'react'
 const Location = () => {
     return (
         <div>
-            <div className="grid grid-cols-1 lg:grid-cols-12 mt-16 pb-5">
+            <div className="grid grid-cols-1 lg:grid-cols-12 mt-16">
                 <div className="col-span-12 lg:col-start-2 lg:col-span-10 px-4 lg:px-0">
                     <div className="map-container">
                         <iframe

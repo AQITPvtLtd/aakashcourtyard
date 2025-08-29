@@ -48,7 +48,7 @@ const About = () => {
                 >
                     About <span className="text-yellow-400">Us</span>
                 </h2>
-                <p className="text-white text-base md:text-lg leading-relaxed">
+                <p className="text-white text-base md:text-lg leading-relaxed lg:text-justify">
                     Aakash Cinema – Where Movies Come Alive
                     At Aakash Cinema, we aim to provide more than just a movie experience—we create memories. Established in [Year], our mission is to offer premium cinema experiences in a comfortable and friendly environment.
                 </p>

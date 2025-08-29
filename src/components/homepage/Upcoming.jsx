@@ -15,8 +15,8 @@ const images = [
 const Upcoming = () => {
     return (
         <section className="mx-auto max-w-7xl px-6">
-            <h2 className=" text-3xl font-bold text-center text-white">
-                {/* Hover the Images to Expand */}
+            <h2 className=" text-4xl font-bold text-center text-white" style={{ fontFamily: "Roboto Slab, serif" }}>
+                Latest & <span className="text-yellow-400">Upcoming Movies</span>
             </h2>
             <div className="flex justify-center">
                 <HoverExpand

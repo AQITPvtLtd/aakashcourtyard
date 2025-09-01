@@ -50,7 +50,7 @@ const About = () => {
                     About <span className="text-yellow-400">Us</span>
                 </h2>
                 <p className="text-white text-base md:text-lg leading-relaxed lg:text-justify">
-                    At Aakash Cinema, we believe movies are more than just entertainment, they’re experiences that stay with you. Since our beginning in [Year], our goal has been to bring people together and create lasting memories through cinema. With a warm, welcoming atmosphere and premium viewing comfort, every visit here feels special.
+                    At Aakash Cinema, we believe movies are more than just entertainment, they’re experiences that stay with you. Since our beginning in 1st August 2025, our goal has been to bring people together and create lasting memories through cinema. With a warm, welcoming atmosphere and premium viewing comfort, every visit here feels special.
                 </p>
             </div>
         </div>
